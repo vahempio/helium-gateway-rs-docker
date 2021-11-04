@@ -1,6 +1,6 @@
 # Helium gateway-rs in a docker
 
-This repository is linked to an auto-build trigger on Docker Hub available here: TBD link
+This repository is linked to an image on Docker Hub available here: https://hub.docker.com/r/vahempio/helium-gateway-rs
 
 With this, you can control and verify what is it included inside the image.
 
