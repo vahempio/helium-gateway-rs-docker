@@ -1,6 +1,6 @@
 FROM debian:11-slim
 
-ARG gateway_version=v1.0.0-alpha.20
+ARG gateway_version=v1.0.0-alpha.21
 ARG gateway_arch=x86_64
 
 LABEL maintainer="vahempio@gmail.com" \
