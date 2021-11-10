@@ -28,11 +28,11 @@ Output console is readable on your stdout.
 ## Synology deployment example
 Follow these steps:
 - Add the `vahempio/helium-gateway-rs:latest` in your image list
-- Select 'Launch'
-- Name your container and select 'advanced settings'
-- Under the tab 'Advanced settings', select the automatic reboot
-- Under the tab 'Volume', add the folder with your helium config in read-only mode with a mounting point to '/config'
-- Under the tab 'Port settings', add a port redirection for 1680:1680/udp
-- Under the tab 'Environment', add a variable 'GW\_LISTEN' with a value '0.0.0.0:1680'
+- Select `Launch`
+- Name your container and select `Advanced settings`
+- Under the tab `Advanced settings`, enable the `Automatic reboot`
+- Under the tab `Volume`, add the folder with your helium config in read-only mode with a mounting point to `/config`
+- Under the tab `Port settings`, add a port redirection for `1680:1680/udp`
+- Under the tab `Environment`, add a variable `GW_LISTEN` with a value `0.0.0.0:1680`
 - Then, you can apply and valid all following screens
-Logs are available on the `logs` tab.
+Logs are available under the `logs` tab.
